@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+div.container {
+    /* height: 100vh; */
+    max-width: 80vw;
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(30, 57, 91);
+
+}
+
+header nav img {
+    margin: 12px 5px;
+    width: 25%;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 2px 35px;
+    color: white;
+    font-size: 25px;
+}
+
+header nav ul li span {
+    font-family: 'Sono', sans-serif;
+    cursor: pointer;
+}
+
+header nav ul li button.btn {
+    font-family: 'Sono', sans-serif;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(47, 89, 141);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 4px 10px;
+}
+
+/* Main Contain Styling */
+/* Section1 Styling */
+main section.section1 .topleft {
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(20, 77, 148);
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+main section.section1 .topleft img {
+    height: 95px;
+    width: 150px;
+    margin: 15px 0;
+}
+
+main section.section1 .topleft h1 {
+    width: 100%;
+    color: rgb(255, 238, 238);
+    font-size: 38px;
+}
+
+main section.section1 .topleft h1 span {
+    color: rgb(166, 242, 16);
+}
+
+main section.section1 .topleft p {
+    padding: 10px 0;
+    color: rgb(203, 215, 234);
+}
+
+
+main section.section1 .topright {
+    width: 50%;
+}
+
+main section.section1 .topright div img {
+    width: 37rem;
+    height: 19rem;
+}
+
+/* Section2 Styling */
+main section.section2{
+    padding: 73px;
+}
+
+main section.section2 h1 {
+    font-size: 40px;
+}
+
+main section.section2 p {
+    padding: 0 65px;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main section.section2 .boxes {
+    padding: 15px 8px;
+}
+
+main section.section2 .boxes .box {
+    margin: 5px 12px;
+    border: 1px solid black;
+    height: 22rem;
+    width: 25vw;
+}
+
+main section.section2 .boxes .box .innerHead {
+    height: 5rem;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(199, 199, 199);
+    font-size: 1.7rem;
+}
+
+main section.section2 .boxes .box .innerItem p {
+    padding: 0;
+    font-size: 1rem;
+    font-family: none;
+}
+
+main section.section2 .boxes .box .innerItem .innerPara {
+    padding: 3.5px;
+}
+
+main section.section2 .boxes .box button {
+    cursor: pointer;
+    height: 39px;
+    width: 222px;
+    border: 1.2px solid blue;
+    border-radius: 6px;
+    color: blue;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 10px;
+}
+
+main section.section2 .boxes .box button.bttn:hover {
+    background-color: rgb(44, 44, 243);
+    color: white;
+}
+
+/* Section-3 Styling */
+main section.section3{
+    padding: 73px;
+}
+
+main section.section3 div.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.section3 div.plantable .text-start{
+    padding: 5px 0;
+}
+
+main section.section3 .container .table{
+    width: 100%;    
+    margin: 25px 0;
+    font-size: 1.1rem;
+}
+
+main section.section3 h1{
+    font-size: 2.3rem;
+}
+
+main section.section3 .container table thead tr th{
+    width: 40px;
+    /* border-bottom: 1px solid black; */
+}
+
+
+/* Footer Styling */
+div.container footer{
+    font-size: 20px;
+}
